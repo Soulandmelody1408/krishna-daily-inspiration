@@ -210,4 +210,3 @@ const quotes = raw
 function newQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").innerText = quotes[randomIndex];
-}
